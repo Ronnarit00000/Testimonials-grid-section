@@ -226,7 +226,7 @@ body {
         ;
     }
     
-    .testimonial:nth-child(1)::after {
+    .testimonial:is(.quote)::after {
         right: 5rem;
     }
 
